@@ -16,7 +16,7 @@ public class UserService {
     @Autowired
     private UserDAO userDAO;
 
-//    @Transactional
+    @Transactional
     public void multiUserRegister(){
         val user1 = new User("20611082","小澤遊矢");
         userDAO.insertUser(user1);

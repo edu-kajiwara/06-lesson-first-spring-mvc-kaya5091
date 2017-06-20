@@ -4,3 +4,7 @@ spring:
     username: root
     password: verysecret
     driver-class-name: com.mysql.jdbc.Driver
+
+
+client:
+    url: http://localhost:63342

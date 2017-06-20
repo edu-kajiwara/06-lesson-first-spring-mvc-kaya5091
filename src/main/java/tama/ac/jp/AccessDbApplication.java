@@ -27,7 +27,7 @@ public class AccessDbApplication implements CommandLineRunner
 
 	@Override
 	public void run(String... args) throws Exception {
-		userService.multiUserRegister();
+//		userService.multiUserRegister();
 	}
 
 }
